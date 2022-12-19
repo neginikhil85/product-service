@@ -1,0 +1,16 @@
+server:
+    error:
+        include-message: always
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: nikhil
+        url: jdbc:mysql://localhost:3306/product_service
+        username: root
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+
+s2s:
+    url: http://localhost:8081
